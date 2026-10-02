@@ -1,0 +1,25 @@
+name: Jekyll build
+on:
+  push:
+    branches: [CF]
+  pull_request:
+    branches: [CF]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: jekyll-build-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - name: Build site
+        run: bundle exec jekyll build --strict_front_matter
+        env:
+          JEKYLL_ENV: production

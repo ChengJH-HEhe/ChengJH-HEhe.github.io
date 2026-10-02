@@ -24,10 +24,3 @@ I am also working with **Prof. Dean Tullsen**, **Luyi Li**, and **Hosein Yavarza
 
 I have built a Java compiler for Mx, a Verilog CPU with Tomasulo scheduling, and a Go implementation of Raft. [View projects](/projects/)
 
-## Recent articles
-
-{% for post in site.posts limit:3 %}
-- **[{{ post.title }}]({{ post.url }})** — {{ post.date | date: "%B %d, %Y" }}
-{% endfor %}
-
-[All articles →](/articles/)

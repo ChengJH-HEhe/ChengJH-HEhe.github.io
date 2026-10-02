@@ -1,0 +1,12 @@
+---
+layout: archive
+title: "Publications & Manuscripts"
+permalink: /publications/
+author_profile: true
+---
+
+<p>Research manuscripts and publications, with their current status stated explicitly.</p>
+{% include base_path %}
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}

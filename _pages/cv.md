@@ -6,7 +6,7 @@ author_profile: true
 
 [Download CV (PDF)](/files/CV.pdf){: .btn .btn--primary}
 
-*Updated October 1, 2026.*
+*Updated October 9, 2026.*
 
 ## Education
 
@@ -18,7 +18,7 @@ Selected courses: Mathematical Logic (A+, 100/100), Principles and Practice of C
 
 ## Research interests
 
-Improving the performance of computing architectures while preserving security, particularly trusted execution environments (TEEs) and oblivious architectures such as ORAM-based memory systems.
+My research interests lie at the intersection of systems security and performance, with a focus on microarchitectural security, speculative execution defenses, and trusted execution environments (TEEs). I am also interested in AI safety and agent safety, particularly in applying systems security principles to build trustworthy AI systems and agents.
 
 ## Research experience
 
@@ -34,7 +34,7 @@ Improving the performance of computing architectures while preserving security, 
 
 **June 2025–June 2026** · Advisor: **Prof. Guoxing Chen**
 
-- Second author of *Attest the Whole, Verify Incrementally*, under minor revision for CCS 2026.
+- Second author of **Attest the Whole, Verify Incrementally** — **CCS 2026: Accepted**.
 - Work on reducing enclave cold-start latency through dynamic loading of enclave pages after startup.
 
 ## Personal projects

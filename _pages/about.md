@@ -7,9 +7,9 @@ excerpt: "Computer science undergraduate at Shanghai Jiao Tong University studyi
 
 I am an undergraduate in the **ACM Honors Class** at **Shanghai Jiao Tong University**, pursuing a B.S. in Computer Science (expected June 2027).
 
-My research focuses on **secure and efficient computing systems**, including trusted execution environments (TEEs), microarchitectural security, and oblivious architectures such as ORAM-based memory systems. I am interested in improving performance while preserving security guarantees.
+My research interests lie at the intersection of systems security and performance, with a focus on microarchitectural security, speculative execution defenses, and trusted execution environments (TEEs). I am also interested in AI safety and agent safety, particularly in applying systems security principles to build trustworthy AI systems and agents.
 
-At SJTU's Network Security and Privacy Protection (NSEC) Lab, I worked with **Prof. Guoxing Chen** on reducing enclave cold-start latency through dynamic page loading. I am the second author of *Attest the Whole, Verify Incrementally*, currently under minor revision for CCS 2026.
+At SJTU's Network Security and Privacy Protection (NSEC) Lab, I worked with **Prof. Guoxing Chen** on reducing enclave cold-start latency through dynamic page loading. I am the second author of **Attest the Whole, Verify Incrementally**, **CCS 2026: Accepted**.
 
 I am also working with **Prof. Dean Tullsen**, **Luyi Li**, and **Hosein Yavarzadeh** at UCSD's DCASL on reverse engineering Intel defense mechanisms, measuring their overhead, and exploring lower-latency alternatives.
 

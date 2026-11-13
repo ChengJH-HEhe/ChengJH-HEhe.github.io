@@ -4,20 +4,32 @@ permalink: /research/
 author_profile: true
 ---
 
-My research interests lie at the intersection of systems security and performance, with a focus on microarchitectural security, speculative execution defenses, and trusted execution environments (TEEs). I am also interested in AI safety and agent safety, particularly in applying systems security principles to build trustworthy AI systems and agents.
+My research focuses on **systems security and performance optimization**, with complementary interests in AI-assisted systems research and trustworthy AI systems.
 
-## Intel defense profiling
+- **Systems security and performance:** Microarchitectural security, speculative execution defenses, trusted execution environments (TEEs), and security–performance trade-offs.
+- **AI for systems:** AI-assisted vulnerability discovery, attack and defense development, and system performance optimization.
+- **Systems for AI:** Security, safety, and performance of AI models, agents, and infrastructure, including AI/agent safety and systems-level security issues.
 
-**DCASL, University of California San Diego** · May 2026–present  
-**Advisor:** Prof. Dean Tullsen · **Collaborators:** Luyi Li and Hosein Yavarzadeh
-
-I reverse engineer Intel defense mechanisms and measure their performance overhead. The project also explores alternatives that could reduce defense latency.
+My goal is to advance **AI for secure and efficient systems**, and **secure and efficient systems for AI**.
 
 ## TEE acceleration
 
 **Network Security and Privacy Protection (NSEC) Lab, SJTU** · June 2025–June 2026  
 **Advisor:** Prof. Guoxing Chen
 
-I contributed to **Attest the Whole, Verify Incrementally** as the second author. The project reduces enclave cold-start latency by dynamically loading enclave pages after startup.
+My research focused on secure and efficient trusted execution, including whole-program integrity and enclave startup efficiency. I am the second author of **Attest the Whole, Verify Incrementally** — **CCS 2026: Accepted**.
 
-**Publication status: CCS 2026: Accepted.** [More about the manuscript](/publications/attest-the-whole/)
+The paper's lazy-verification architecture is implemented on **Intel SGX and AMD SEV-SNP**. My personal design contribution focuses on dynamic enclave-page loading to reduce SGX cold-start work. [Publication details](/publications/attest-the-whole/) · [Project details](/projects/#sgx-cold-start-optimization)
+
+<a id="intel-defense-profiling"></a>
+
+## Defense profiling and overhead evaluation
+
+**DCASL, University of California San Diego** · May 2026–present  
+**Advisor:** Prof. Dean Tullsen  
+**Collaborators:** Luyi Li and Hosein Yavarzadeh
+
+I study security–performance trade-offs in Intel/AMD branch-predictor defenses, assessing isolation across privilege boundaries and the runtime cost of enforcing it.
+
+- Develop fine-grained microbenchmarks to characterize Intel/AMD defense mechanisms and investigate isolation boundaries across kernel/user transitions and VM/cross-VM contexts.
+- Develop controlled overhead benchmarks to quantify mitigation costs across workloads and analyze the security–performance trade-offs of different defense configurations.
